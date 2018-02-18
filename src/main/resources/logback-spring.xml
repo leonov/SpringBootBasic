@@ -21,7 +21,7 @@
     </appender>
 
     <springProfile name="!prod">
-        <logger name="com.interview.cache">
+        <logger name="io.github.leonov.cache">
             <level value="debug" />
         </logger>
     </springProfile>
